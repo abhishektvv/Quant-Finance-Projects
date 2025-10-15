@@ -1,0 +1,5 @@
+There are 2 files here :
+
+CAPM and FAMA LINE Verification --> After collecting Stock data for a period 5 years and collecting data about factors from Kenneth Library, I compute the excess stock return and do OLS Regression for CAPM and FAMA. I also verify the LINE conditions ( Linearity, Independence, Normality and Equal Variance )
+
+CAPM vs FAMA Prediction Tests --> To see which model is better ( verify the theory basically ), I do OLS for CAPM vs FAMA for a rolling period window ( 24 years, 1 period = 5 years, monthly data). There are multiple ways to check which is better, and as per the theory, the introduction of more factors should lead to reduction of the absolute value of alpha ( the intercept ). We can also do a comparison of adjusted R^2. After doing both, it is observed that FAMA is a better model than CAPM.
